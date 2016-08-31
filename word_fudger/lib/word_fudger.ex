@@ -1,5 +1,5 @@
 defmodule WordFudger do
-  @moduledoc """
+  @moduledoc"""
   Messes up every other word in a given string.
   """
 
@@ -11,6 +11,18 @@ defmodule WordFudger do
   """
   def upcase(string) do
     operate_every_other_word(string, fn(x) -> String.upcase(x) end)
+  end
+
+  @doc"""
+  Removes vowels from every other word in a given sentance. Example:
+
+  iex> WordFudger.unvowel("I am become death")
+  "I m become dth"
+  """
+  def unvowel(string) do
+    operate_every_other_word(string, fn(x) ->
+      Regex.replace(~r/[aeiou]/, x, "")
+    end)
   end
 
   defp operate_every_other_word(string, operation) do
