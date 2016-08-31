@@ -5,3 +5,4 @@ erl_crash.dump
 *.ez
 todo.txt
 dist/
+.vimrc
