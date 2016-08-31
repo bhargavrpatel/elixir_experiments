@@ -6,3 +6,4 @@ erl_crash.dump
 todo.txt
 dist/
 .vimrc
+*.csv
