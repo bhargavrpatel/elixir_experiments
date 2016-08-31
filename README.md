@@ -3,7 +3,8 @@
 This repositories contains some experiements I am doing while learning Elixir. Each subfolder is a mix project and can be run using standard mix calls.
 
 ## Table of Contents
-Todo
+##### Word Fudger
+Modifies every other word in a string
 
 ## License
 ```

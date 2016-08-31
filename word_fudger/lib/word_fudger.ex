@@ -1,0 +1,2 @@
+defmodule WordFudger do
+end
