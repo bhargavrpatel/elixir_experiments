@@ -6,6 +6,9 @@ This repositories contains some experiements I am doing while learning Elixir. E
 ##### Word Fudger
 Modifies every other word in a string
 
+##### CSV to DB
+Parses a CSV file, allows any intermediate data changes, and pipes to stdout. This can then be paired with DB read from STDIN to load tables.
+
 ## License
 ```
 MIT License
